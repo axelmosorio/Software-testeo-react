@@ -53,7 +53,6 @@ const GestionarMenu = () => {
                 <div className="seccion_gestionar_pruebas">
                     <h2>Gestionar Pruebas</h2>
                     <div className="sub_opciones">
-              {/* 3. Redirecciones limpias usando las rutas de tu App.jsx */}
                         <button className="boton_sub_menu" onClick={() => navigate('/crear-cdp')}>
                             Crear caso de prueba
                         </button>
